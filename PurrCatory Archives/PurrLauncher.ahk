@@ -16,6 +16,7 @@ SetWindowAttribute(MyGui)
 ; call dark mode for controls
 SetWindowTheme(MyGui)
 
+;Requires DarkMode for AutoHotkey v2
 #include .Cmpl8r\DarkMode.scriptlet
 
 MyGui.Title := "PurrCatory Archive"

@@ -9,8 +9,11 @@ The game was originally uploaded as a dev test demo. Meaning these aren't just 2
 ### <b><u>Team</b></u>
 
 Pikakid98 `Main.. ahem... "Artist", Programmer (Mostly the launcher), Music.. Pretty much everything else`
+\
 Nhaselton `Programmer`
+\
 SonicboomColt `Music`
+\
 Psychicpie `Art`
 
 ### <b><u>Building requirements</b></u>
