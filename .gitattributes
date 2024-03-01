@@ -2,4 +2,3 @@
 * text=auto
 *.gmx linguist-language=Game-Maker-Language
 *.gml linguist-language=Game-Maker-Language
-*.ahk linguist-language=AutoHotkey
