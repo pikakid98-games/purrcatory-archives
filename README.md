@@ -6,6 +6,14 @@ A small collection of 2 builds of my first ever collaboration game, PurrCatory. 
 
 The game was originally uploaded as a dev test demo. Meaning these aren't just 2 versions of the same game, They're technically 2 completely different games.. So uh..... Look, I just wanted an excuse to make another launcher XD
 
+## Where are the actual game files?
+
+Uuuuuuupstate New York?... No bot seriously.. GitHub is really weird with the auto language detection even with a .gitattributes file so the actual game source code iiiiiiis.. right below
+\
+[Demo Build](https://github.com/Git-Pikakid98/purrcatory-archives-demobuild/releases)
+\
+[Alpha Build](https://github.com/Git-Pikakid98/purrcatory-archives-alphabuild/releases)
+
 ### <b><u>Team</b></u>
 
 Pikakid98 `Main.. ahem... "Artist", Programmer (Mostly the launcher), Music.. Pretty much everything else`
@@ -18,12 +26,6 @@ Psychicpie `Art`
 
 ### <b><u>Building requirements</b></u>
 
-Game
-\
-[GameMaker Studio 1](https://gminstall.yoyogames.com/downloads/gm-studio/GMStudio-Installer-1.4.9999.exe)
-
-Launcher
-\
 [AutoHotkey v2](https://github.com/AutoHotkey/AutoHotkey/releases)
 \
 [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe/releases)
