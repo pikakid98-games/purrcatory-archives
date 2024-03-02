@@ -10,9 +10,11 @@ The game was originally uploaded as a dev test demo. Meaning these aren't just 2
 
 Uuuuuuupstate New York?... No bot seriously.. GitHub is really weird with the auto language detection even with a .gitattributes file so the actual game source code iiiiiiis.. right below
 \
-[Demo Build](https://github.com/Git-Pikakid98/purrcatory-archives-demobuild/releases)
+[Demo Build](https://github.com/Git-Pikakid98/purrcatory-archives-demobuild
 \
-[Alpha Build](https://github.com/Git-Pikakid98/purrcatory-archives-alphabuild/releases)
+[Alpha Build](https://github.com/Git-Pikakid98/purrcatory-archives-alphabuild)
+
+Don't worry. This launcher contains both pre-compiled binaries.. If you don't know what that means...... Do you know what a "GitHub" is?.. No?....... Leave... Now
 
 ### <b><u>Team</b></u>
 
