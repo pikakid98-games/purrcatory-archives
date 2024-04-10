@@ -52,15 +52,12 @@ MyBtn_op2(*)
 }
 
 MyBtn_Click(*) {
-Value1 := IniRead(A_Temp "\Purr.ini", "launch", "Dir")
-Value2 := IniRead(A_Temp "\Purr.ini", "launch", "Game")
+Value := IniRead(A_Temp "\Purr.ini", "launch", "Game")
 
 if Value := IniRead(A_Temp "\Purr.ini", "launch", "Game", "")
 	{
 		MyGui.Hide()
-		SetWorkingDir "Data\"
-		RunWait Value2
-		SetWorkingDir ".."
+		RunWait "Data\" Value
 		MyGui.Show()
 	} else {
 		MyGui.Hide()
