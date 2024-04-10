@@ -10,10 +10,18 @@ mkdir "Output\Data"
 
 
 ::-------------------------------------------------------------------------------------
-"%GMS%\GameMaker-Studio.exe" "Alpha\PurrCatory.project.gmx"
+if exist "%GMS%\GMSPortable.exe" (
+    "%GMS%\GMSPortable.exe" "Alpha\PurrCatory.project.gmx"
+) else (
+    "%GMS%\GameMaker-Studio.exe" "Alpha\PurrCatory.project.gmx"
+)
 ::-------------------------------------------------------------------------------------
 
 
 ::-------------------------------------------------------------------------------------
-"%GMS%\GameMaker-Studio.exe" "Demo\PurrCatory__Demo_Build_.project.gmx"
+if exist "%GMS%\GMSPortable.exe" (
+    "%GMS%\GMSPortable.exe" "Demo\PurrCatory__Demo_Build_.project.gmx"
+) else (
+    "%GMS%\GameMaker-Studio.exe" "Demo\PurrCatory__Demo_Build_.project.gmx"
+)
 ::-------------------------------------------------------------------------------------

@@ -43,12 +43,12 @@ MyBtn.OnEvent("Click", MyBtn_Click)
 
 MyBtn_op1(*)
 {
-	IniWrite "PurrCatory (Demo Build).exe", A_Temp "\Purr.ini", "launch", "Game"
+	IniWrite "Demo\PurrCatory__Demo_Build_.exe", A_Temp "\Purr.ini", "launch", "Game"
 }
 
 MyBtn_op2(*)
 {
-	IniWrite "PurrCatory.exe", A_Temp "\Purr.ini", "launch", "Game"
+	IniWrite "Alpha\PurrCatory.exe", A_Temp "\Purr.ini", "launch", "Game"
 }
 
 MyBtn_Click(*) {
