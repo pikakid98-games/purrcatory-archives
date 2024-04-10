@@ -33,3 +33,13 @@ Psychicpie `Art`
 [Ahk2Exe](https://github.com/AutoHotkey/Ahk2Exe/releases)
 \
 [Upx](https://github.com/upx/upx/releases/tag/v4.2.2)
+
+
+<details>
+<summary>If compiling with Compile-in-ator</summary>
+
+###### Use the following environment variables or you WILL encounter errors
+`%AHK%` AutoHotkey
+`%GMS%` GameMaker Studio
+
+</details>

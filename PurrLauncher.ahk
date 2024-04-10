@@ -5,7 +5,6 @@
 ;@Ahk2Exe-Set ProductVersion, 1.0.0.0
 ;@Ahk2Exe-Set CompanyName, Pikakid98
 
-IniWrite "", A_Temp "\Purr.ini", "launch", "Dir"
 IniWrite "", A_Temp "\Purr.ini", "launch", "Game"
 
 MyGui := Gui()
@@ -44,13 +43,11 @@ MyBtn.OnEvent("Click", MyBtn_Click)
 
 MyBtn_op1(*)
 {
-	IniWrite "Demo Build", A_Temp "\Purr.ini", "launch", "Dir"
 	IniWrite "PurrCatory (Demo Build).exe", A_Temp "\Purr.ini", "launch", "Game"
 }
 
 MyBtn_op2(*)
 {
-	IniWrite "Alpha-0.3a", A_Temp "\Purr.ini", "launch", "Dir"
 	IniWrite "PurrCatory.exe", A_Temp "\Purr.ini", "launch", "Game"
 }
 
@@ -61,7 +58,7 @@ Value2 := IniRead(A_Temp "\Purr.ini", "launch", "Game")
 if Value := IniRead(A_Temp "\Purr.ini", "launch", "Game", "")
 	{
 		MyGui.Hide()
-		SetWorkingDir Value1
+		SetWorkingDir "Data\"
 		RunWait Value2
 		SetWorkingDir ".."
 		MyGui.Show()

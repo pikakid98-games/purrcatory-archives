@@ -4,14 +4,16 @@ copy "..\DarkMode\DarkMode.scriptlet" ".Cmpl8r"
 "%AHK%\Compiler\Ahk2Exe.exe" /in "PurrLauncher.ahk" /out "Output\PurrLauncher.exe" /icon "icon.ico" /compress 2 /base "%AHK%\v2\AutoHotkey64.exe"
 
 del ".Cmpl8r\DarkMode.scriptlet" /S /Q
+
+mkdir "Output\Data"
 ::-------------------------------------------------------------------------------------
 
 
 ::-------------------------------------------------------------------------------------
-:: "%GMS%\GameMaker-Studio.exe" "Alpha-0.3a\PurrCatory.gmx\PurrCatory.project.gmx"
+"%GMS%\GameMaker-Studio.exe" "Alpha\PurrCatory.project.gmx"
 ::-------------------------------------------------------------------------------------
 
 
 ::-------------------------------------------------------------------------------------
-:: "%GMS%\GameMaker-Studio.exe" "Demo Build\PurrCatory__Demo_Build_.gmx\PurrCatory__Demo_Build_.project.gmx"
+"%GMS%\GameMaker-Studio.exe" "Demo\PurrCatory__Demo_Build_.project.gmx"
 ::-------------------------------------------------------------------------------------
