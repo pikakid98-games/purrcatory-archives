@@ -8,7 +8,7 @@ The game was originally uploaded as a dev test demo. Meaning these aren't just 2
 
 ## Where are the actual game files?
 
-Uuuuuuupstate New York?... No bot seriously.. GitHub is really weird with the auto language detection even with a .gitattributes file so the actual game source code iiiiiiis.. right below
+Uuuuuuupstate New York?... No, but seriously.. GitHub is really weird with the auto language detection even with a .gitattributes file so the actual game source code iiiiiiis.. right below
 \
 [Demo Build](https://github.com/Git-Pikakid98/purrcatory-archives-demobuild)
 \
